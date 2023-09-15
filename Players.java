@@ -91,19 +91,19 @@ public class Players extends JFrame {
 
                 switch (position) {
                     case "ST":
-                        positionCost = 10.0;
+                        positionCost = 10;
                         break;
                     case "CM":
-                        positionCost = 6.0;
+                        positionCost = 6;
                         break;
                     case "DEF":
-                        positionCost = 5.0;
+                        positionCost = 5;
                         break;
                     case "GK":
-                        positionCost = 4.0;
+                        positionCost = 4;
                         break;
                     default:
-                        positionCost = 0.0;
+                        positionCost = 0;
                         break;
                 }
 

@@ -1,6 +1,5 @@
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
@@ -111,8 +110,8 @@ public class Login extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 if (e.getSource() == adminButton) {
-                    String adminId = "Sadid";
-                    String adminPassword = "4321";
+                    String adminId = "meghla";
+                    String adminPassword = "123";
     
                     String enteredId = t1.getText();
                     String enteredPassword = new String(pw.getPassword());
@@ -136,7 +135,7 @@ public class Login extends JFrame {
         j.pack();
     
         // Frame setting:
-        j.setVisible(true);
+        j.setVisible(true);  j.pack();
         j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         j.setTitle("Sign In");
         j.setSize(1920, 1080);
